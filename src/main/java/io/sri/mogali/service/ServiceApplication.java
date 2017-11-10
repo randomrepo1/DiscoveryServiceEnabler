@@ -21,6 +21,6 @@ public class ServiceApplication {
 	
 	@RequestMapping("/")
 	public String message() {
-		return "Hello from Instance";
+		return "Hello from" +instance;
 	}
 }
